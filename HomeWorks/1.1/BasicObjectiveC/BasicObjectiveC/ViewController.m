@@ -27,7 +27,7 @@
                           @{@"entry":@[@{@"path":@"add_diary.pl"},
                                        @{@"query":@{@"tag_id":@"7"}}]}];
                             
-    NSArray *domain_3 = @[@"itune.apple.com"];
+    NSArray *domain_3 = @{@"domain":@"itune.apple.com"};
     
     NSLog (@"%@",domain_1);
     NSLog (@"%@",domain_2);

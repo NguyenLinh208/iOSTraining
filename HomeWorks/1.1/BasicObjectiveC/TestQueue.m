@@ -10,8 +10,7 @@
 
 @implementation TestQueue
 
--(void)push:(id)object {
-
+{
     
 }
 

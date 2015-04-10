@@ -8,9 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TestQueue : NSObject{
-    NSMutableArray *queue;
-    NSInteger maxSize;
-}
+@interface TestQueue : NSMutableArray
+-(id) dequeue;
+-(void) enqueue:(id)obj;
 
 @end
