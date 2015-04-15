@@ -27,20 +27,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    [_button addTarget:self //自分自信のアクションなのでself
-                action:@selector(buttonTapped:) //buttopTapedイベントが起こった時
+    
+    [_button addTarget:self
+                action:@selector(buttonTapped:)
       forControlEvents:UIControlEventTouchUpInside];
 }
 
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
-
-
 - (void)buttonTapped:(id)sender {
-//id 型　senderにボタン Object が入っている
     [_button setTintColor:[UIColor greenColor]];
     
 //    XibViewController *xibViewController = [[XibViewController alloc]initWithNibName:@"XibViewController"
@@ -50,6 +47,7 @@
     
     
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
     ModalViewController *modalViewController = [storyBoard instantiateViewControllerWithIdentifier:@"ModalViewController"];
     
     modalViewController.message = _textField.text;

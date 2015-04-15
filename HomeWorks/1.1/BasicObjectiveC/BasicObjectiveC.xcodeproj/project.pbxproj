@@ -19,6 +19,7 @@
 		5405EF1C171D454500C6E9F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5405EF1B171D454500C6E9F5 /* ViewController.m */; };
 		5405EF1F171D454500C6E9F5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5405EF1D171D454500C6E9F5 /* ViewController.xib */; };
 		C31157461AD7D32F0035CCA7 /* TestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C31157451AD7D32F0035CCA7 /* TestQueue.m */; };
+		C31157491ADBC4360035CCA7 /* TestStack.m in Sources */ = {isa = PBXBuildFile; fileRef = C31157481ADBC4360035CCA7 /* TestStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		5405EF1E171D454500C6E9F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		C31157441AD7D32F0035CCA7 /* TestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestQueue.h; path = ../TestQueue.h; sourceTree = "<group>"; };
 		C31157451AD7D32F0035CCA7 /* TestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestQueue.m; path = ../TestQueue.m; sourceTree = "<group>"; };
+		C31157471ADBC4360035CCA7 /* TestStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestStack.h; sourceTree = "<group>"; };
+		C31157481ADBC4360035CCA7 /* TestStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				C31157441AD7D32F0035CCA7 /* TestQueue.h */,
+				C31157471ADBC4360035CCA7 /* TestStack.h */,
+				C31157481ADBC4360035CCA7 /* TestStack.m */,
 				C31157451AD7D32F0035CCA7 /* TestQueue.m */,
 				5405EF11171D454500C6E9F5 /* AppDelegate.h */,
 				5405EF12171D454500C6E9F5 /* AppDelegate.m */,
@@ -182,6 +187,7 @@
 				5405EF13171D454500C6E9F5 /* AppDelegate.m in Sources */,
 				5405EF1C171D454500C6E9F5 /* ViewController.m in Sources */,
 				C31157461AD7D32F0035CCA7 /* TestQueue.m in Sources */,
+				C31157491ADBC4360035CCA7 /* TestStack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

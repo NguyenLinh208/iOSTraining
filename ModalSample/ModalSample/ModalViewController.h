@@ -1,7 +1,8 @@
-//  ModalViewController.h
-//  FirstExample
 //
-//  Created by グェン カン リン on 2015/04/10.
+//  ModalViewController.h
+//  ModalSample
+//
+//  Created by グェン カン リン on 2015/04/14.
 //  Copyright (c) 2015年 Gmom. All rights reserved.
 //
 
@@ -10,11 +11,12 @@
 @protocol ModalViewControllerDelegate;
 
 @interface ModalViewController : UIViewController
-@property (nonatomic, strong) NSString *message;
-@property (nonatomic, weak)id<ModalViewControllerDelegate>delegate;
+@property (nonatomic,weak) id<ModalViewControllerDelegate>delegate;
+-(IBAction)pressCloseButton:(id)sender;
 @end
 
 @protocol ModalViewControllerDelegate <NSObject>
--(void)closeButtonTapped:(ModalViewController *) controller;
+
+-(void)didPressCloseButton:(ModalViewController *)controller;
 
 @end

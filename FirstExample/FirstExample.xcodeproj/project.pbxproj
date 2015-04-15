@@ -111,9 +111,9 @@
 				C311570E1AD760620035CCA7 /* ViewController.h */,
 				C311570F1AD760620035CCA7 /* ViewController.m */,
 				C31157301AD76BAD0035CCA7 /* MixiSampleClass.h */,
+				C31157311AD76BAD0035CCA7 /* MixiSampleClass.m */,
 				C31157331AD786CC0035CCA7 /* NSArray+debug.h */,
 				C31157341AD786CC0035CCA7 /* NSArray+debug.m */,
-				C31157311AD76BAD0035CCA7 /* MixiSampleClass.m */,
 				C31157111AD760620035CCA7 /* Main.storyboard */,
 				C31157391AD7A17F0035CCA7 /* ModalViewController.h */,
 				C311573A1AD7A17F0035CCA7 /* ModalViewController.m */,
@@ -463,6 +463,7 @@
 				C31157291AD760620035CCA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C311572A1AD760620035CCA7 /* Build configuration list for PBXNativeTarget "FirstExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +472,7 @@
 				C311572C1AD760620035CCA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
